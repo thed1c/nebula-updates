@@ -1,16 +1,16 @@
 {
- "version": "0.1.4",
- "notes": "Smaller downloads (llama-server is out; Halo runs on Impulse everywhere), AMD Radeon and other cards through Vulkan, small updates from now on, Qwen3.8 Flash-Next as a guided setup, Flint 40B, answers that stream as they are written, and fixes.",
- "published": "2026-10-27",
+ "version": "0.1.5",
+ "notes": "Halo upgraded to LFM3: with an NVIDIA card, Halo now runs Liquid AI's LFM3-1.7B (a better router, handoff briefings that don't invent details, the Uncensored option); NVIDIA machines download it once (about 1 GB), and Halo keeps working on the previous model until it is in place. Without an NVIDIA card, Halo stays on the previous model for now.",
+ "published": "2026-10-30",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.4/nebula-eh-0.1.4-linux-x86_64.run",
-   "sha256": "67f2ee908dfe67cb3154e3ca869d8d95ace4c5842dba297d43b3244892f73670"
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.5/nebula-eh-0.1.5-linux-x86_64.run",
+   "sha256": "30a94252064ddcff78ceab5682ee4b61c7e4f781839b0945502827edea9781f2"
   },
   "windows-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.4/Nebula-EH-Setup-0.1.4.exe",
-   "sha256": "a39964fd2dbaa2243794cb2f45b1cf097ed3d15b8369c883b65885375b1517d9"
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.5/Nebula-EH-Setup-0.1.5.exe",
+   "sha256": "07a064e14d2a6463850c19bee30b7bb1636e127be7d16ebceccc529854b5d773"
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.4"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.5"
 }
