@@ -1,16 +1,20 @@
 {
- "version": "0.1.5",
- "notes": "Halo upgraded to LFM3: with an NVIDIA card, Halo now runs Liquid AI's LFM3-1.7B (a better router, handoff briefings that don't invent details, the Uncensored option); NVIDIA machines download it once (about 1 GB), and Halo keeps working on the previous model until it is in place. Without an NVIDIA card, Halo stays on the previous model for now.",
- "published": "2026-10-30",
+ "version": "0.1.6",
+ "notes": "Windows fixed: on Windows, 0.1.5 closed before its window appeared; 0.1.6 opens again (on Windows, install it with its Setup from the release page). When a model cannot be downloaded, Setup and Nebula now say why in plain words and move on instead of retrying for minutes. Each route can have its own instructions.",
+ "published": "2026-10-31",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.5/nebula-eh-0.1.5-linux-x86_64.run",
-   "sha256": "30a94252064ddcff78ceab5682ee4b61c7e4f781839b0945502827edea9781f2"
-  },
-  "windows-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.5/Nebula-EH-Setup-0.1.5.exe",
-   "sha256": "07a064e14d2a6463850c19bee30b7bb1636e127be7d16ebceccc529854b5d773"
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6/nebula-eh-0.1.6-linux-x86_64.run",
+   "sha256": "e4a2ae6c5cc36ec3a907ab89b45ebc492b3116bb087a9fd6a6ddcac125984d52",
+   "app": {
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6/nebula-eh-0.1.6-app-linux-x86_64.tar.gz",
+    "sha256": "93245bf97a4a6dee85fb9a1cae1f04bc71522a1d446e5d756794dcc430bb346a",
+    "bytes": 53362754,
+    "bases": [
+     "0.1.5"
+    ]
+   }
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.5"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6"
 }
