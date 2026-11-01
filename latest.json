@@ -1,25 +1,26 @@
 {
- "version": "0.1.6.1",
- "notes": "Windows: the Update button works again. On Windows, 0.1.5 and 0.1.6 cannot update themselves (their update closed Nebula without updating it): install 0.1.6.1 with its Setup from the release page, once; after that, updates come through the button. Also in 0.1.6: the window opens on Windows, and downloads say why they failed.",
+ "version": "0.1.6.2",
+ "notes": "Windows: Setup closes a running Nebula before it installs (it used to fail on files in use and blame the internet), and a Nebula once opened as administrator no longer locks you out of your own settings. Older NVIDIA cards (before RTX 20 / GTX 16) are shown as CPU only instead of failing; an older-card engine download is planned.",
  "published": "2026-11-01",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/nebula-eh-0.1.6.1-linux-x86_64.run",
-   "sha256": "6e12cd7931e9e2a28c885a42ce046dc4c5cf13686a33522a2920559dbf401a72",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/nebula-eh-0.1.6.2-linux-x86_64.run",
+   "sha256": "f2ade76558c976d61b1df218c6527396dabc02a344050d862d95a1587fec45f3",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/nebula-eh-0.1.6.1-app-linux-x86_64.tar.gz",
-    "sha256": "47aedb7ef92fe63ce68c7d473fc473c148efeab580488b3f1072fbb935847083",
-    "bytes": 53363257,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/nebula-eh-0.1.6.2-app-linux-x86_64.tar.gz",
+    "sha256": "5a9b74f9697a1251dcc79eb355499d23c31d48f6ed6ae3f0f5eda816e05dae88",
+    "bytes": 53368151,
     "bases": [
      "0.1.5",
-     "0.1.6"
+     "0.1.6",
+     "0.1.6.1"
     ]
    }
   },
   "windows-x86_64-u2": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/Nebula-EH-Setup-0.1.6.1.exe",
-   "sha256": "1f38f923d86e248335448be17ba3e8d65263dfe3e2940036f004884716675f15"
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/Nebula-EH-Setup-0.1.6.2.exe",
+   "sha256": "fe103590611506c05f8eebb4f9ddcca81ccb084324cec4f591b4dd976ce74bcf"
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.1"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.2"
 }
