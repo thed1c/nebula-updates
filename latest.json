@@ -1,20 +1,25 @@
 {
- "version": "0.1.6",
- "notes": "Windows fixed: on Windows, 0.1.5 closed before its window appeared; 0.1.6 opens again (on Windows, install it with its Setup from the release page). When a model cannot be downloaded, Setup and Nebula now say why in plain words and move on instead of retrying for minutes. Each route can have its own instructions.",
- "published": "2026-10-31",
+ "version": "0.1.6.1",
+ "notes": "Windows: the Update button works again. On Windows, 0.1.5 and 0.1.6 cannot update themselves (their update closed Nebula without updating it): install 0.1.6.1 with its Setup from the release page, once; after that, updates come through the button. Also in 0.1.6: the window opens on Windows, and downloads say why they failed.",
+ "published": "2026-11-01",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6/nebula-eh-0.1.6-linux-x86_64.run",
-   "sha256": "e4a2ae6c5cc36ec3a907ab89b45ebc492b3116bb087a9fd6a6ddcac125984d52",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/nebula-eh-0.1.6.1-linux-x86_64.run",
+   "sha256": "6e12cd7931e9e2a28c885a42ce046dc4c5cf13686a33522a2920559dbf401a72",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6/nebula-eh-0.1.6-app-linux-x86_64.tar.gz",
-    "sha256": "93245bf97a4a6dee85fb9a1cae1f04bc71522a1d446e5d756794dcc430bb346a",
-    "bytes": 53362754,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/nebula-eh-0.1.6.1-app-linux-x86_64.tar.gz",
+    "sha256": "47aedb7ef92fe63ce68c7d473fc473c148efeab580488b3f1072fbb935847083",
+    "bytes": 53363257,
     "bases": [
-     "0.1.5"
+     "0.1.5",
+     "0.1.6"
     ]
    }
+  },
+  "windows-x86_64-u2": {
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.1/Nebula-EH-Setup-0.1.6.1.exe",
+   "sha256": "1f38f923d86e248335448be17ba3e8d65263dfe3e2940036f004884716675f15"
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.1"
 }
