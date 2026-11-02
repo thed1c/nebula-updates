@@ -1,26 +1,36 @@
 {
- "version": "0.1.6.2",
- "notes": "Windows: Setup closes a running Nebula before it installs (it used to fail on files in use and blame the internet), and a Nebula once opened as administrator no longer locks you out of your own settings. Older NVIDIA cards (before RTX 20 / GTX 16) are shown as CPU only instead of failing; an older-card engine download is planned.",
+ "version": "0.1.6.3",
+ "notes": "Windows updates are small now (Nebula's code alone, no full reinstall), and the update shows in front. Model pickers work again, and LFM2.5 8B is in the model list.",
  "published": "2026-11-01",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/nebula-eh-0.1.6.2-linux-x86_64.run",
-   "sha256": "f2ade76558c976d61b1df218c6527396dabc02a344050d862d95a1587fec45f3",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-linux-x86_64.run",
+   "sha256": "3afe94230bb1fbf3cf709d42bd9c860c99c57e8119b9c7ebea284dd7b244815b",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/nebula-eh-0.1.6.2-app-linux-x86_64.tar.gz",
-    "sha256": "5a9b74f9697a1251dcc79eb355499d23c31d48f6ed6ae3f0f5eda816e05dae88",
-    "bytes": 53368151,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-app-linux-x86_64.tar.gz",
+    "sha256": "66b7b09e47718da6e8d8eaee6fa5ee2a3fb8d335080511c024d1afe02a8869c8",
+    "bytes": 53372250,
     "bases": [
      "0.1.5",
      "0.1.6",
-     "0.1.6.1"
+     "0.1.6.1",
+     "0.1.6.2"
     ]
    }
   },
   "windows-x86_64-u2": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.2/Nebula-EH-Setup-0.1.6.2.exe",
-   "sha256": "fe103590611506c05f8eebb4f9ddcca81ccb084324cec4f591b4dd976ce74bcf"
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/Nebula-EH-Setup-0.1.6.3.exe",
+   "sha256": "a4cdd1d2c830408394a69ea2898f7e16b3fb5909822782e8414ecd9a067ef2c7",
+   "app": {
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-app-windows-x86_64.tar.gz",
+    "sha256": "ac995fb9aed86edb5cbe2923816daa29c68e82624517e2df9353aa7a1dc55aa3",
+    "bytes": 53372295,
+    "bases": [
+     "0.1.6.1",
+     "0.1.6.2"
+    ]
+   }
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.2"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.3"
 }
