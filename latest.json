@@ -1,36 +1,38 @@
 {
- "version": "0.1.6.3",
- "notes": "Windows updates are small now (Nebula's code alone, no full reinstall), and the update shows in front. Model pickers work again, and LFM2.5 8B is in the model list.",
- "published": "2026-11-01",
+ "version": "0.1.7",
+ "notes": "Older NVIDIA cards (GTX 900 / 10 series, Titan X / Xp / V, Tesla M / P / V100) can run models on Impulse (L), an optional download Nebula offers on such a computer.",
+ "published": "2026-11-02",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-linux-x86_64.run",
-   "sha256": "3afe94230bb1fbf3cf709d42bd9c860c99c57e8119b9c7ebea284dd7b244815b",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.7/nebula-eh-0.1.7-linux-x86_64.run",
+   "sha256": "4f06fc20df7d69b85c850643095c41293e99300b29d3a10c5db563bff77100d2",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-app-linux-x86_64.tar.gz",
-    "sha256": "66b7b09e47718da6e8d8eaee6fa5ee2a3fb8d335080511c024d1afe02a8869c8",
-    "bytes": 53372250,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.7/nebula-eh-0.1.7-app-linux-x86_64.tar.gz",
+    "sha256": "dd8ad88504146fca9f7873b987d6192260ec02545cf29a0f0485ec869fb9f32a",
+    "bytes": 53380408,
     "bases": [
      "0.1.5",
      "0.1.6",
      "0.1.6.1",
-     "0.1.6.2"
+     "0.1.6.2",
+     "0.1.6.3"
     ]
    }
   },
   "windows-x86_64-u2": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/Nebula-EH-Setup-0.1.6.3.exe",
-   "sha256": "a4cdd1d2c830408394a69ea2898f7e16b3fb5909822782e8414ecd9a067ef2c7",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.7/Nebula-EH-Setup-0.1.7.exe",
+   "sha256": "f0747f7ddafa113ee253aa9b0226effdcdaf69aec78c6524bc7c213fa4ddd820",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.6.3/nebula-eh-0.1.6.3-app-windows-x86_64.tar.gz",
-    "sha256": "ac995fb9aed86edb5cbe2923816daa29c68e82624517e2df9353aa7a1dc55aa3",
-    "bytes": 53372295,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.1.7/nebula-eh-0.1.7-app-windows-x86_64.tar.gz",
+    "sha256": "8cf2da88e134cb288d16923ea88d04672b929bca532c7fd4669ed7688da678cc",
+    "bytes": 53380461,
     "bases": [
      "0.1.6.1",
-     "0.1.6.2"
+     "0.1.6.2",
+     "0.1.6.3"
     ]
    }
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.6.3"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.1.7"
 }
