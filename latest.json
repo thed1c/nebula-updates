@@ -1,40 +1,42 @@
 {
- "version": "0.2.0",
- "notes": "Your models as one team (Star Weaving), skills, a toolbox for files and tests, a new layout, Halo Omni, and an older NVIDIA card beside a newer one on Impulse (L).",
+ "version": "0.2.0.1",
+ "notes": "Windows: the programs Nebula starts no longer open console windows (they flashed every few seconds in 0.2.0).",
  "published": "2026-11-05",
  "files": {
   "linux-x86_64": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0/nebula-eh-0.2.0-linux-x86_64.run",
-   "sha256": "87a1be7a6e1fd744cdc6a7c0d50f39867081c91e9649cb8587207a04b7de8370",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0.1/nebula-eh-0.2.0.1-linux-x86_64.run",
+   "sha256": "711549ce991f6b66ec6398f6d79044986cc5f9fad2bc08a632592cb5e1ce4918",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0/nebula-eh-0.2.0-app-linux-x86_64.tar.gz",
-    "sha256": "9ff3f33c66e8ccc4da2bd6f97d09c9d605527f0419d081e026dcfc93ddbc9efa",
-    "bytes": 53692640,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0.1/nebula-eh-0.2.0.1-app-linux-x86_64.tar.gz",
+    "sha256": "9b28f4bb1d3726b0e16a8f7b31c4227c9d1fa23e55616e24969311cb80a9a4ff",
+    "bytes": 53694611,
     "bases": [
      "0.1.5",
      "0.1.6",
      "0.1.6.1",
      "0.1.6.2",
      "0.1.6.3",
-     "0.1.7"
+     "0.1.7",
+     "0.2.0"
     ]
    }
   },
   "windows-x86_64-u2": {
-   "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0/Nebula-EH-Setup-0.2.0.exe",
-   "sha256": "b3a3ee7ec3a1d1c8a05a24886d80611710b4b255884c19b5be4a30fcec6263b1",
+   "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0.1/Nebula-EH-Setup-0.2.0.1.exe",
+   "sha256": "41c331a660f367cd6c90895c1b4964aec8c2294ba8a649da4297a9e45f6a2b76",
    "app": {
-    "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0/nebula-eh-0.2.0-app-windows-x86_64.tar.gz",
-    "sha256": "8efe289a2e8a173d9d0c6e024518941700a65ecbf89a0de591c750d085fc340d",
-    "bytes": 53692694,
+    "url": "https://github.com/thed1c/Nebula/releases/download/v0.2.0.1/nebula-eh-0.2.0.1-app-windows-x86_64.tar.gz",
+    "sha256": "3a4e27986ab7877ab1410bfb1f432d4cb99d9ea0a42f662bba7f368e174ad4c0",
+    "bytes": 53694666,
     "bases": [
      "0.1.6.1",
      "0.1.6.2",
      "0.1.6.3",
-     "0.1.7"
+     "0.1.7",
+     "0.2.0"
     ]
    }
   }
  },
- "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.2.0"
+ "release_page": "https://github.com/thed1c/Nebula/releases/tag/v0.2.0.1"
 }
